@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Switch from "react-switch";
-import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav';
 import { LinkContainer } from "react-router-bootstrap";
 
 class Header extends Component {
@@ -108,8 +108,8 @@ class Header extends Component {
               </h1>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
+               
               </div>
-              
             </div>
           </div>
         </div>
