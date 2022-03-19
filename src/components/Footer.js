@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class Footer extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
@@ -20,6 +21,8 @@ class Footer extends Component {
           <div className="row">
             <div className="col social-links">{networks}</div>
             <div className="col">
+              </div>
+
               <div 
                 onClick={() =>
                   this.props.applyPickedLanguage(
@@ -66,7 +69,6 @@ class Footer extends Component {
               </div>
             </div>
           </div>
-        </div>
       </footer>
     );
   }
