@@ -20,7 +20,7 @@
         }
       ],
       
-      "image": "img/public/ellas/ellaprofile.jpg"
+      "image": "../public/ellas/ellaprofile.jpg"
     },
     "skills": {
       "icons": [
